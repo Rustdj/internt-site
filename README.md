@@ -3,6 +3,6 @@
 <h3>Template layout using html, css, js.</h3>
 <a href="https://rustdj.github.io/internt-site/" target="_blank">Click on my project >></a>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=F71F5B&lines=My+contacts+to+contact+me+rustdj%40icloud.com)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=F71F5B&lines=My+contacts+to+contact+me+;rustdj%40icloud.com)](https://git.io/typing-svg)
 
 
