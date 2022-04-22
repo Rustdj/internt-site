@@ -93,7 +93,7 @@ const minusFullPrice = (currentPrice) => {
 };
 
 const printFullPrice = () => {
-    fullPrice.textContent = `${normalPrice(price)} ₽`
+    fullPrice.textContent = `${normalPrice(price)} €`
 };
 
 const printQuantity = () => {
@@ -111,7 +111,7 @@ const generateCartProduct = (img, title, price, id) => {
             <img src="${img}" alt="Макбук" class="cart-product__img">
                 <div class="cart-product__text">
                 <h3 class="cart-product__title">${title}</h3>
-            <span class="cart-product__price">${normalPrice(price)} ₽</span>
+            <span class="cart-product__price">${normalPrice(price)} €</span>
             </div>
             <button class="cart-product__delete" aria-label="Удалить товар"></button>
             </article>
