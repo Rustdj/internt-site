@@ -1,3 +1,14 @@
+//form
+// const form = document.document.querySelectorAll('data-simplebar');
+
+// function eventForm(value) {
+//     if (value === "form") {
+//         alert('Please enter')
+//     }
+// }
+
+
+
 const product = document.querySelectorAll('.product');
 
 if (product) {

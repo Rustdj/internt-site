@@ -15,15 +15,15 @@
         <div class="container">
             <nav class="header__nav nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="" class="nav__link">Каталог</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Акции</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Оплата и доставка</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Работа в компании</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Catalog</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Stock</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Payment and delivery</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Work in a company</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
                 </ul>
                 <div class="header__cart cart" tabindex="0">
                     <div class="cart__text">
-                        Корзина
+                        <img class="cart__img" src="./img/shopping-cart 1.svg" alt="card">
                         <span class="cart__quantity">0</span>
                     </div>
                     <div class="cart-content">
@@ -41,8 +41,8 @@
                         </ul>
                         <div class="cart-content__bottom">
                             <div class="cart-content__fullprice">
-                                <span>Итого: </span>
-                                <span class="fullprice">568 789 ₽</span>
+                                <span>Total: </span>
+                                <span class="fullprice">7905 €</span>
                             </div>
                             <button class="cart-content__btn btn" data-graph-path="modal" data-graph-animation="fadeInUp" data-graph-speed='400'>Перейти в корзину</button>
                         </div>
@@ -56,11 +56,11 @@
             <div class="product-content grid-container">
                 <div class="filters">
                     <div class="filters__item filters-price">
-                        <h3 class="filters-price__title">Цена</h3>
+                        <h3 class="filters-price__title">Price</h3>
                         <div class="filters-price__slider"></div>
-                        <div class="filters-price__input">
-                            <input type="text" placeholder="search.." class="filters-price__input">
-                        </div>
+                        <form name="publish" class="filters-price__input">
+                            <input onchange='eventForm(this.value)' type="text" placeholder="search.." class="filters-price__input">
+                        </form>
                     </div>
                 </div>
                 <ul class="products-grid">
@@ -90,17 +90,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Smartphone Apple iPhone 13 Pro 128 GBSSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">available 17 pieces</span>
                             </div>
                             <div class="product__price product-price">
                                 <span class="product-price__current">1900 €</span>
                                 <span class="product-price__old">2190 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -129,17 +129,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Smartphone Apple iPhone 13 128 GBSSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">available 7 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">1890 €</span>
+                                <span class="product-price__old">1945 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -168,17 +168,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Smartphone Apple iPhone 13 Pro 1t GBSSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">available 12 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">2190 €</span>
+                                <span class="product-price__old">2350 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -207,17 +207,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Apple MacBook Pro 16 TB i7 2.6/16/1t SSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">Available: 10 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">2090 €</span>
+                                <span class="product-price__old">2130 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -246,17 +246,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">Available: 7 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">2100 €</span>
+                                <span class="product-price__old">2140 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -285,17 +285,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">21.5" Apple iMac (Retina 4K,) MHK23RU/A, Intel Core i3 3.6</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">Available: 14 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">2890 €</span>
+                                <span class="product-price__old">2970 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -324,17 +324,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Smart watch Apple Watch Series 7 41 mm Aluminum</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 879876</span>
+                                <span class="product__available">Available: 8 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">560 €</span>
+                                <span class="product-price__old">590 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -363,17 +363,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Apple AirPods Pro (White)</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 87984</span>
+                                <span class="product__available">Available: 24 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">190 €</span>
+                                <span class="product-price__old">230 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                     <li class="products-grid__item">
@@ -402,17 +402,17 @@
                                         </svg>
                                     4,5
                                 </span>
-                                <span class="product__testimonials">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
+                                <span class="product__testimonials">Notebook Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG HGGFDYFJ</span>
                             </div>
                             <div class="product__info">
-                                <span class="product__term">Артикул: 879876</span>
-                                <span class="product__available">В наличии: 13 шт</span>
+                                <span class="product__term">art: 35876</span>
+                                <span class="product__available">Available: 35 pieces</span>
                             </div>
                             <div class="product__price product-price">
-                                <span class="product-price__current">190 789 ₽</span>
-                                <span class="product-price__old">194 990 ₽</span>
+                                <span class="product-price__current">2390 €</span>
+                                <span class="product-price__old">2459 €</span>
                             </div>
-                            <button class="product__btn btn">Добавить в корзину</button>
+                            <button class="product__btn btn">Add to card</button>
                          </article> 
                     </li>
                 </ul>
@@ -425,14 +425,14 @@
 		<div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
 			<div class="modal-content order-modal__content">
 				<div class="order-modal__top">
-					<h2 class="order-modal__title">Оформление заказа</h2>
-					<span class="order-modal__number">Заказ № 3456 67</span>
+					<h2 class="order-modal__title">Checkout</h2>
+					<span class="order-modal__number">Order № 3456 67</span>
 				</div>
 				<div class="order-modal__info">
-					<div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
-					<div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>568 789 ₽</span></div>
+					<div class="order-modal__quantity order-modal__info-item">Items per order: <span>3 pieces</span></div>
+					<div class="order-modal__summ order-modal__info-item">the total amount of the order: <span>7905 €</span></div>
 					<div class="order-modal__products order-modal__info-item">
-						<button class="order-modal__btn">Состав заказа</button>
+						<button class="order-modal__btn">Order list</button>
 						<ul class="order-modal__list">
 							<!-- <li class="order-modal__item">
 								<article class="order-modal__product order-product">
@@ -452,18 +452,18 @@
 					<input type="hidden" name="admin_email[]" value="spirit820@mail.ru">
 					<input type="hidden" name="form_subject" value="Заявка с сайта Сайт">
 					<label class="order__label">
-						<span class="order__text">Ваше имя</span>
+						<span class="order__text">your name</span>
 						<input type="text" name="Имя" class="order__input">
 					</label>
 					<label class="order__label">
-						<span class="order__text">Номер телефона</span>
+						<span class="order__text">Phone number</span>
 						<input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
 					</label>
 					<label class="order__label">
-						<span class="order__text">Ваше имя</span>
+						<span class="order__text">your name</span>
 						<input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
 					</label>
-					<button class="order__btn btn">Оформить заказ</button>
+					<button class="order__btn btn">Checkout</button>
 				</form>
 			</div>
 		</div>

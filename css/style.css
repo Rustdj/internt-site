@@ -151,12 +151,16 @@ ul {
     line-height: 19px;
 }
 
+.cart__img {
+    width: 60px;
+}
+
 .cart__quantity {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    margin-top: -10px;
+    margin-top: -25px;
     background: radial-gradient(circle at 77% 31%,aqua,#00008b);
     box-shadow: 5px 10px 20px rgb(0 0 0 / 30%), -5px -10px 20px hsl(0deg 0% 100% / 50%);
     border-radius: 100%;
